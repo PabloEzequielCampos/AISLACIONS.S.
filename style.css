@@ -1,0 +1,141 @@
+* {
+  padding: 0.5%;
+}
+body {
+  background-color: black;
+}
+p {
+  color: white;
+}
+
+header {
+  border: 2px solid white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(103, 156, 119) 100%
+  );
+  color: white;
+  border-radius: 20px;
+}
+#title {
+  margin: 4%;
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  letter-spacing: 6px;
+  font-style: italic;
+}
+.initials,
+.initials_ {
+  color: red;
+  font-size: 122%;
+  font-style: italic;
+}
+.last_name1,
+.last_name2 {
+  color: red;
+  font-size: 122%;
+}
+.titleMod {
+  text-decoration: underline;
+}
+.name {
+  text-align: center;
+}
+.subTitle {
+  border: 2px solid white;
+  border-radius: 20px;
+  margin-top: 1.8%;
+  background: black;
+  color: white;
+  text-align: center;
+  width: 0 50%;
+}
+.workH3 {
+  text-align: center;
+  margin-top: 5%;
+  border: 4px solid;
+  padding: 5px;
+  width: 0 50%;
+  border-radius: 20px;
+  background-color: black;
+  color: white;
+  font-size: 122%;
+}
+.pictures1 {
+  text-align: center;
+  border: 5px solid white;
+  margin: 1%;
+  border-radius: 20px;
+}
+.page2 {
+  border: 4px solid white;
+  border-radius: 20px;
+  padding: 3%;
+  text-align: center;
+  font-size: 200%;
+}
+.page2Button {
+  margin-top: 5%;
+  text-align: center;
+  font-size: 122%;
+}
+.contactUs {
+  text-align: center;
+  color: white;
+  margin-top: 10%;
+}
+input,
+textarea {
+  text-align: center;
+  margin: 2px;
+  font-size: 122%;
+}
+.contactenos {
+  border: 2px solid white;
+  font-size: 180%;
+}
+.contactDiv {
+  border: 1px solid white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(103, 156, 119) 100%
+  );
+  border-radius: 20px;
+  margin: 1%;
+  margin-top: 7%;
+}
+footer {
+  border: 2px solid white;
+  color: white;
+  margin-top: 4%;
+  border-radius: 20px;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgb(103, 156, 119) 100%
+  );
+
+}
+.footext{
+  font-size: 300%;
+  color: white;
+  
+}
+.whatsappimg{
+
+}
+#footIcons{
+  text-align: center;
+  
+}
+
+@media(max-width: 480px  ){ 
+
+.page2 , .footext , header, .subTitle .workH3, .subindex{
+  font-size: initial;
+
+
+}
+}
